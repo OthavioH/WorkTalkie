@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_wave"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="306dp"
+        android:layout_height="119dp"
+        android:background="@color/botoes"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="230dp"
+        android:text="Chat"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:shadowColor="#000" />
+
+</RelativeLayout>

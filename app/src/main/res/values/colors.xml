@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009dff</color>
+    <color name="colorPrimaryDark">#00609c</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="botoes">#06a63e</color>
+    <color name="divisor">#fc3003</color>
+    <color name="gray">#E0E0E0</color>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ltcadastro_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_wave"
+    android:backgroundTint="#0356fc"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".cadastro_">
+
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn_foto"
+        android:text="Foto"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="-150dp"
+        app:civ_border_color="#fff"
+        app:civ_border_width="4dp" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Seu Nome"
+        android:paddingLeft="10dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_round"
+        android:text="Cadastrar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

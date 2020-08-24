@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "379787585795",
+    "firebase_url": "https://worktalkie-243221.firebaseio.com",
+    "project_id": "worktalkie-243221",
+    "storage_bucket": "worktalkie-243221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379787585795:android:d37c4d6842ab9b91",
+        "android_client_info": {
+          "package_name": "com.example.worktalkie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379787585795-squidk6rjkf4cvjemir0mrtn0t2n7ocu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2fT0rYKM3kU1kwNznNo8Fj3h_IRFUaHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379787585795-squidk6rjkf4cvjemir0mrtn0t2n7ocu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
